@@ -27,6 +27,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       False,       -1 },
 	{ "MPlayer",  NULL,		  NULL,		  0,			True,		 -1 },
+	{ "Feh",	  NULL,		  NULL,		  0,			True,		 -1 },
 };
 
 /* layout(s) */
