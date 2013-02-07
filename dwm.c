@@ -258,6 +258,7 @@ static void zoom(const Arg *arg);
 
 /* variables */
 static const char broken[] = "broken";
+static char hostname[256];
 static char stext[256];
 static int screen;
 static int sw, sh;           /* X display screen geometry width, height */
@@ -2102,7 +2103,8 @@ updatetitle(Client *c) {
 void
 updatestatus(void) {
 	if(!gettextprop(root, XA_WM_NAME, stext, sizeof(stext)))
-		strcpy(stext, "dwm-"VERSION);
+		gethostname(hostname, 256);
+		strcpy(stext, hostname);
 	drawbar(selmon);
 }
 
