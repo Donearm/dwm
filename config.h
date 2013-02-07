@@ -3,7 +3,7 @@
 #include "gaplessgrid.c"
 
 /* appearance */
-static const char font[]            = "-*-dejavu sans-medium-r-*-*-9-*-*-*-*-*-*-*";
+static const char font[]            = "-*-dejavu sans-medium-r-*-*-10-*-*-*-*-*-*-*";
 static const char normbordercolor[] = "#ededed";
 static const char normbgcolor[]     = "#ededed";
 static const char normfgcolor[]     = "#161d42";
@@ -16,7 +16,7 @@ static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
 
 /* tagging */
-static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII"};
+static const char *tags[] = { "One", "Ring", "To", "Rule", "Them", "All"};
 
 static const Rule rules[] = {
 	/* xprop(1):
